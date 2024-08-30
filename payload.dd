@@ -1,0 +1,11 @@
+DELAY 1000
+REM Abrir Prompt de Comando
+GUI r
+DELAY 1000
+STRING cmd
+ENTER
+DELAY 2000
+
+STRING @echo cmd /k echo -^|->-.bat&-
+ENTER
+
